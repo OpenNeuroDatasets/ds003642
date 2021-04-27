@@ -1,6 +1,5 @@
 The dataset is composed by 3 subjects, scanned at the Imaging Centre of Excellence (ICE) at the Queen Elizabeth University Hospital, Glasgow (UK).
-The full database consists of 142 out-of-the-scanner volumes obtained with a MP2RAGE sequence at 0.63 mm3
-isotropic resolution, using a 7-Tesla MRI scanner with 32-channel head coil.
+The full database consists of 142 out-of-the-scanner volumes obtained with a MP2RAGE sequence at 0.63 mm3 isotropic resolution, using a 7-Tesla MRI scanner with 32-channel head coil.
 These data serve as testing dataset for the paper:
 
 	Svanera, M., Benini, S., Bontempi, D., & Muckli, L. (2020). 
@@ -10,11 +9,13 @@ These data serve as testing dataset for the paper:
 For every subject, two folders are provided, containing:
 
 anat/
+
 * INV1
 * INV2
 * UNI_Images
 
 derivatives/
+
 * manual annotations of 8 regions of widely interest in neuroscience
 	early visual cortex (EVC)
 	high-level visual areas (HVC)
