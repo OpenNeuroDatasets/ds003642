@@ -9,5 +9,6 @@
         "This project has received funding from the European Union Horizon 2020 Framework Programme for Research and Innovation under the Specific Grant Agreement No. 785907 and 945539 (Human Brain Project SGA2 and SGA3)."
     ],
     "License": "CC0",
-    "DatasetDOI": "mockDOI"
+    "DatasetDOI": "mockDOI",
+    "Acknowledgements": "This project has received funding from the European Union Horizon 2020 Framework Programme for Research and Innovation under the Specific Grant Agreement No. 785907 and 945539 (Human Brain Project SGA2 and SGA3).\nWe thank Dr. Alessio Fracasso for assistance with the inaccurate ground-truth creation, the Muckli lab for the Turing test and neuroimaging knowledge, Dr. Mattia Savardi for very useful technical comments, Dr. Alberto Signoroni for fruitful discussion on learning strategies, Dr. Lucy Petro for comments improving the manuscript, and Mrs Frances Crabbe for useful feedbacks on manual segmentation."
 }
