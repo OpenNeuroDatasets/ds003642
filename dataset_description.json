@@ -1,0 +1,13 @@
+{
+    "Name": "CEREBRUM-7T: fast and fully-volumetric brain segmentation of out-of-the-scanner 7T MR volumes",
+    "BIDSVersion": "1.51-rc1",
+    "Authors": [
+        "Michele Svanera",
+        "Lars Muckli"
+    ],
+    "Funding": [
+        "This project has received funding from the European Union Horizon 2020 Framework Programme for Research and Innovation under the Specific Grant Agreement No. 785907 and 945539 (Human Brain Project SGA2 and SGA3)."
+    ],
+    "License": "CC0",
+    "DatasetDOI": "mockDOI"
+}
