@@ -1,0 +1,38 @@
+The dataset is composed by 3 subjects, scanned at the Imaging Centre of Excellence (ICE) at the Queen Elizabeth University Hospital, Glasgow (UK).
+The full database consists of 142 out-of-the-scanner volumes obtained with a MP2RAGE sequence at 0.63 mm3 isotropic resolution, using a 7-Tesla MRI scanner with 32-channel head coil.
+These data serve as testing dataset for the paper:
+
+	Svanera, M., Benini, S., Bontempi, D., & Muckli, L. (2020). 
+	CEREBRUM-7T: fast and fully-volumetric brain segmentation of out-of-the-scanner 7T MR volumes. 
+	bioRxiv.
+
+For every subject, two folders are provided, containing:
+
+anat/
+
+* INV1
+* INV2
+* UNI_Images (T1w)
+
+derivatives/
+
+* manual annotations of 8 regions of widely interest in neuroscience
+	early visual cortex (EVC)
+	high-level visual areas (HVC)
+	motor cortex (MCX)
+	cerebellum (CER)
+	hippocampus (HIP)
+	early auditory cortex (EAC)
+	brainstem (BST)
+	basal ganglia (BGA)
+* automatic segmentation by FreeSurfer (v6 and v7)
+* automatic segmentation by Fracasso16
+* automatic segmentation by our method (CEREBRUM7T) with probability maps (CEREBRUM7T_probMap)
+* automatic segmentation by nighres
+* labels used for training our method
+
+
+Project: [link](https://rocknroll87q.github.io/cerebrum7t/)
+Code: [link](https://github.com/rockNroll87q/cerebrum7t)
+Paper: [link](https://www.biorxiv.org/content/10.1101/2020.07.07.191536v2)
+Full dataset: [link](https://search.kg.ebrains.eu/instances/Dataset/2b24466d-f1cd-4b66-afa8-d70a6755ebea)
